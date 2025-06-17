@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <Platforms>x86</Platforms>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SurfaceCorrectionPlugin</RootNamespace>
+    <AssemblyName>SurfaceCorrectionPlugin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AcCoreMgd">
+      <HintPath>libs/AcCoreMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>libs/AcDbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>libs/AcMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Civil">
+      <HintPath>libs/Autodesk.Civil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
